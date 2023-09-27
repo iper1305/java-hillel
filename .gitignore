@@ -16,10 +16,6 @@ Thumbs.db
 target/
 
 # Maven specific
-pom.xml
-pom.xml.asc
-pom.xml.md5
-pom.xml.sha1
 .settings/
 target/
 .idea_modules/
