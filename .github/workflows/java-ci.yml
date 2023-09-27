@@ -25,5 +25,4 @@ jobs:
           distribution: 'zulu'
 
       - name: Build with Maven
-        run: mvn clean install
-        working-directory: /home/runner/work/java-hillel
+        run: mvn -f /home/runner/work/java-hillel/pom.xml clean install
