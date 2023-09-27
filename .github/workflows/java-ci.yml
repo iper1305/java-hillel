@@ -25,5 +25,6 @@ jobs:
           distribution: 'zulu'
 
       - name: Build with Maven
-        run: mvn exec:java -Dexec.mainClass="crawler.WebInterface" -Dexec.args="${/home/runner/work/java-hillel}/database ${/home/runner/work/java-hillel}/www" -f ${/home/runner/work/java-hillel} pom.xml
+        run: mvn exec:java -Dexec.mainClass="crawler.WebInterface" -Dexec.args="/home/runner/work/java-hillel/database /home/runner/work/java-hillel/www" -f /home/runner/work/java-hillel/pom.xml
+
 
